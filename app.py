@@ -1,38 +1,15 @@
-# =========================
-# BASIC PYTHON UTILITIES
-# =========================
 import os
 import tempfile
-
-# =========================
-# VECTOR DATABASE
-# =========================
 import chromadb
-
-# =========================
-# OLLAMA (LOCAL LLM + EMBEDDINGS)
-# =========================
 import ollama
 from chromadb.utils.embedding_functions.ollama_embedding_function import (
     OllamaEmbeddingFunction,
 )
-
-# =========================
-# STREAMLIT (UI)
-# =========================
 import streamlit as st
 from streamlit.runtime.uploaded_file_manager import UploadedFile
-
-# =========================
-# DOCUMENT LOADING & SPLITTING
-# =========================
 from langchain_community.document_loaders import PyMuPDFLoader
 from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-
-# =========================
-# RERANKING MODEL
-# =========================
 from sentence_transformers import CrossEncoder
 
 
