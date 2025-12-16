@@ -1,0 +1,65 @@
+# =========================
+# Python Bytecode / Cache
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environments
+# =========================
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Python Tools & Settings
+# =========================
+*.egg-info/
+dist/
+build/
+
+# =========================
+# Dependencies / Lock Files
+# =========================
+pip-wheel-metadata/
+*.egg
+
+# =========================
+# Logs & Temp Files
+# =========================
+*.log
+*.tmp
+*.temp
+
+# =========================
+# IDE / Editor Folders
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# OS / System Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.envrc
+
+# =========================
+# ChromaDB Vector Files
+# =========================
+demo-rag-chroma/
+
+# =========================
+# Streamlit Secret Config
+# =========================
+.streamlit/secrets.toml

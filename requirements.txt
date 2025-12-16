@@ -1,0 +1,18 @@
+pip install \
+    streamlit \
+    chromadb \
+    ollama \
+    langchain-core \
+    langchain-community \
+    langchain-text-splitters \
+    pymupdf \
+    sentence-transformers \
+    tf-keras
+
+
+
+Install Ollama and pull models with:
+
+```bash
+ollama pull llama3.2:1b
+ollama pull nomic-embed-text
